@@ -1,4 +1,4 @@
-import Notification from "./pages/Notification"
+import Notification from "./pages/Notifications/Notification"
 
 function App() {
 
