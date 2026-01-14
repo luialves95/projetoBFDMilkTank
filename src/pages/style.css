@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+  --verde: rgba(61,128,87,1);
+  --bege: rgba(251,249,243,1);
+  --sombra: 0 6px 12px rgba(0,0,0,0.15);
+  background-image: url('../assets/telasemnotifisemfundo.png');
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--bege);
+  min-height: 100vh;
+  background-image: url('../assets/pintastransparente03.png');
+}
+
+.screen {
+  padding: 24px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ---------- Logo ---------- */
+.logo {
+  width: 120px;
+  margin-top: 40px;
+}
+
+.brand {
+  color: var(--verde);
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+/* ---------- Inputs ---------- */
+label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+  text-shadow: 1px 1px rgba(0,0,0,0.1);
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 24px;
+  border: none;
+  box-shadow: var(--sombra);
+  margin-bottom: 20px;
+}
+
+/* ---------- Botões ---------- */
+.button {
+  width: 100%;
+  padding: 14px;
+  border-radius: 28px;
+  border: none;
+  background: var(--verde);
+  color: white;
+  font-weight: 600;
+  box-shadow: var(--sombra);
+}
+
+/* ---------- Links ---------- */
+.link {
+  color: var(--verde);
+  font-size: 14px;
+  margin-bottom: 24px;
+  display: block;
+}
+
+/* ---------- Cards ---------- */
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: var(--sombra);
+  margin-top: 20px;
+}
+
+/* ---------- Filtros ---------- */
+.filters {
+  display: flex;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.filter {
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: 2px solid var(--verde);
+  color: var(--verde);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* ---------- Rodapé ---------- */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: var(--verde);
+  display: flex;
+  justify-content: space-around;
+  padding: 14px 0;
+  border-radius: 24px 24px 0 0;
+  color: white;
+}
+
